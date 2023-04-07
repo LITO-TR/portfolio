@@ -1,0 +1,24 @@
+
+#about-me {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about-me-content {
+    display: flex;
+  }
+  #about-me p {
+    margin-top: 48px;
+    color: var(--gray);
+  }
+  #about-me img {
+    border-right: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    border-left: 1px solid var(--primary);
+    border-top: 1px solid var(--primary);
+  }
+  
+  

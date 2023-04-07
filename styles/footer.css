@@ -1,0 +1,38 @@
+
+#footer {
+
+    max-width: inherit;
+    width: 100%;
+    border-top: 1px solid var(--gray);
+    padding-top: 32px;
+    margin-bottom: 16px;
+  
+  
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+  
+  }
+  #footer ul{
+    list-style: none;
+    color: var(--primary);
+    display: flex;
+    gap: 12px;
+  
+  }
+  
+  #footer i {
+  
+    color: var(--gray);
+    font-size: 1.5em;
+  }
+  
+  #footer i:hover {
+  
+    color: var(--white);
+  }
+  
