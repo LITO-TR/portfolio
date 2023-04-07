@@ -63,3 +63,30 @@
     
   }
   
+  
+  /* Estilos para pantallas pequeñas */
+  @media only screen and (max-width: 480px) {
+   
+    #home {
+      height: 100vh;
+    }
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .profile-container img {
+      border-left: 0px solid;
+      border-right: 0px;
+      height: 400px;
+    }
+    .profile {
+      text-align: center;
+      
+    }
+    .button-cv {
+      margin: 0 auto;
+      display: block;
+    }
+    
+  }
