@@ -1,0 +1,105 @@
+
+[
+    {
+        "name": "HTML",
+        "icon": "devicon-html5-plain",
+        "type": "other"
+    },
+    {
+        "name": "CSS",
+        "icon": "devicon-css3-plain",
+        "type": "other"
+
+    },
+    {
+        "name": "JavaScript",
+        "icon": "devicon-javascript-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "C++",
+        "icon": "devicon-cplusplus-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "C#",
+        "icon": "devicon-csharp-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "Java",
+        "icon": "devicon-java-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "Kotlin",
+        "icon": "devicon-kotlin-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "DART",
+        "icon": "devicon-dart-plain",
+        "type": "language"
+
+    },
+    {
+        "name": "ASP.NET Core",
+        "icon": "devicon-dotnetcore-plain",
+        "type": "backend"
+    },
+    {
+        "name": "Spring Boot",
+        "icon": "devicon-spring-plain",
+        "type": "backend"
+    },
+    {
+        "name": "Node Js",
+        "icon": "devicon-nodejs-plain",
+        "type": "backend"
+    },
+    {
+        "name": "Vue js",
+        "icon": "devicon-vuejs-plain",
+        "type": "frontend"
+    },
+    {
+        "name": "Angular",
+        "icon": "devicon-angularjs-plain",
+        "type": "frontend"
+    },
+    
+    {
+        "name": "Flutter",
+        "icon": "devicon-flutter-plain",
+        "type": "mobile"
+    },
+    {
+        "name": "Android Nativo",
+        "icon": "devicon-android-plain",
+        "type": "mobile"
+
+    },
+    {
+        "name": "MySQL",
+        "icon": "devicon-mysql-plain",
+        "type": "database"
+
+    },
+    {
+        "name": "PostgreSQL ",
+        "icon": "devicon-postgresql-plain",
+        "type": "database"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "devicon-mongodb-plain",
+        "type": "database"
+    }
+    
+]
+    

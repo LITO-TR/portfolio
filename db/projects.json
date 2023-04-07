@@ -1,0 +1,59 @@
+[
+   
+    {
+        "name": "ArmorFeed",
+        "img": "/images/projects/armorfeed.png",
+        "description": "Administrar y contacta con las empresas de envio.",
+        "repository":"https://github.com/ArmorFeed-ES3C",
+        "type":"PROYECTO ACADEMICO",
+        "deploy":"https://62a52906c984237905fa4078--zesty-seahorse-0836b4.netlify.app/",
+        "framework":"ASP NET Core y Vue",
+        "frameworkIcons": ["devicon-dotnetcore-plain colored","devicon-vuejs-plain colored"]
+
+    },
+    {
+        "name": "DiGol",
+        "img": "/images/projects/digol.png",
+        "description": "Reservar y administrar campos deportivos.",
+        "repository":"https://github.com/DiGol-OpenSource",
+        "type":"PROYECTO ACADEMICO",
+        "deploy":"https://digol-opensource.github.io/Landing-Page-Open-Source/#",
+        "framework":"Spring Boot y Angular",
+        "frameworkIcons": ["devicon-spring-plain colored","devicon-angularjs-plain colored"]
+
+    },
+    {
+        "name": "ShopTeam",
+        "img": "/images/projects/shopteam.jpg",
+        "description": "Administrar el inventario de tu negocios.",
+        "repository":"https://github.com/upc-shopTeam",
+        "type":"PROYECTO ACADEMICO",
+        "deploy":"https://upc-shopteam.github.io/landing-page/",
+        "framework":"Flutter y ExpressJs",
+        "frameworkIcons": ["devicon-flutter-plain colored","devicon-nodejs-plain colored"]
+
+    },
+    {
+        "name": "Del Centro App",
+        "img": "/images/projects/del-centro.png",
+        "description": "Creación, control y cobros de créditos.",
+        "repository": "https://github.com/LITO-TR/del_centro_app",
+        "type":"PROYECTO PERSONAL",
+        "deploy":"",
+        "framework":"Flutter",
+        "frameworkIcons": ["devicon-flutter-plain colored"]
+
+    },
+    {
+        "name": "Del Centro API",
+        "img": "/images/projects/del-centro.png",
+        "description": "API REST para el app Del Centro.",
+        "repository":"https://github.com/LITO-TR/del-centro-api",
+        "type":"PROYECTO PERSONAL",
+        "deploy":"",
+        "framework":"Express Js",
+        "frameworkIcons": ["devicon-nodejs-plain colored"]
+
+    }
+]
+
