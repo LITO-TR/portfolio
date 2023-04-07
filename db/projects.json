@@ -35,7 +35,7 @@
     },
     {
         "name": "Del Centro App",
-        "img": ".../images/projects/del-centro.png",
+        "img": "../images/projects/del-centro.png",
         "description": "Creación, control y cobros de créditos.",
         "repository": "https://github.com/LITO-TR/del_centro_app",
         "type":"PROYECTO PERSONAL",
