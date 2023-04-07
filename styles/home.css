@@ -11,16 +11,7 @@
     font-size: 2em;
   }
   
-  .content-container{
-    max-width: 1024px;
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 112px;
-  
-  }
+
   .profile-container{
    
     display: flex;
@@ -67,21 +58,22 @@
   /* Estilos para pantallas pequeñas */
   @media only screen and (max-width: 480px) {
    
-    #home {
-      height: 100vh;
-    }
+  
     .profile-container {
       display: flex;
       flex-direction: column;
       align-items: stretch;
+      gap: 10px;
     }
     .profile-container img {
+      height: 100%;
       border-left: 0px solid;
       border-right: 0px;
       height: 400px;
     }
-    .profile {
+    .profile-description {
       text-align: center;
+      margin: 18px;
       
     }
     .button-cv {
