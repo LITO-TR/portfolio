@@ -184,19 +184,9 @@ fetch('/db/projects.json')
 function downloadCV() {
   var link = document.createElement('a');
   link.style.display = 'none';
-
-  // Establecer el atributo "download" con el nombre del archivo
   link.setAttribute('download', 'CV.pdf');
-
-  // Establecer la URL del archivo que se va a descargar
   link.setAttribute('href', '/files/CV.pdf');
-
-  // Agregar el objeto de ancla al DOM
   document.body.appendChild(link);
-
-  // Hacer clic en el enlace para descargar el archivo
   link.click();
-
-  // Eliminar el objeto de ancla del DOM
   document.body.removeChild(link);
 }
