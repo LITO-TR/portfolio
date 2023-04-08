@@ -1,7 +1,5 @@
-
 #skills {
-    height: 100vh;
-    width: 100%;
+  width: 100%;
     display: flex;
     margin: 0px auto;
     justify-content: center;
@@ -17,7 +15,6 @@
     justify-items:center;
     align-items: baseline;
   }
-  
   .table {
     border: 1px solid var(--gray);
   }
@@ -35,7 +32,6 @@
     color: black; 
     
   }
-  
   .skill-name {
     color: var(--gray);
     pointer-events: none;
@@ -44,5 +40,11 @@
   .skill-logo {
     color: black;
   }
+  @media only screen and (max-width: 480px) {
+    .skills-container {
+      justify-items: stretch;
+    }
   
-  
+
+
+  }
