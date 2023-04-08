@@ -1,4 +1,3 @@
-
 #projects{
     width: 100%;
     display: flex;
@@ -6,8 +5,7 @@
       justify-content: center;
       flex-direction: column;
   
-  }
-  
+  }  
   .projects-container {
       width: 100%;
       display: grid;
@@ -17,8 +15,7 @@
       align-items: start;
       margin-top: 48px;
   
-  }
-  
+  }  
   .project-card {
     width: 100%;
     height: 100%;
@@ -27,8 +24,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: background 1.5s ease-in-out;
     
-  }
-  
+  }  
   .links-container {
     
     font-size: 2em;
@@ -37,9 +33,7 @@
   }
   .links-container a {
     margin: 5px;
-    border: 1px solid var(--primary);
-  
-    
+    border: 1px solid var(--primary); 
   }
   .project-card p {
     color: var(--gray);
@@ -56,10 +50,12 @@
     object-fit:cover;
     border-bottom: 1px solid var(--gray);
   }
-  
-  
   .project-card a>i {
     color: var(--gray);
     padding: 5px;
   }
-  
+  @media only screen and (max-width: 768px) {
+    .skills-container {
+      justify-items: stretch;
+    }
+  }
