@@ -48,67 +48,48 @@ fetch('../db/skills.json')
     const skillCard = document.createElement('div')
     skillCard.className = "skill-card"
     
-
     const skillName = document.createElement('p');
     const skillLogo = document.createElement('i');
 
-
-
     skillName.className = "skill-name"
     skillLogo.className = "skill-logo"
-    
+
     skillName.textContent = skill.name;
     skillLogo.className = skill.icon;
+
+    
     skillLogo.classList.add("colored")
 
-
-  
-
-  
     skillCard.appendChild(skillLogo)
     skillCard.appendChild(skillName)
-
-
-
-   
 
     if(skill.type === 'language'){
       skillLanguage.appendChild(skillCard)
     }
-   
     else if(skill.type === 'frontend'){
       skillFrontend.appendChild(skillCard)
-
     }
     else if(skill.type === 'backend'){
       skillBackend.appendChild(skillCard)
-
     }
     else if(skill.type === 'mobile'){
       skillMobile.appendChild(skillCard)
-
     }
     else if(skill.type === 'database'){
       skillDatabase.appendChild(skillCard)
-
     }
     else if(skill.type === 'other'){
       skillOther.appendChild(skillCard)
     }
-
     skillsContainer.appendChild(skillLanguage)
     skillsContainer.appendChild(skillFrontend);
     skillsContainer.appendChild(skillBackend);
     skillsContainer.appendChild(skillMobile);
     skillsContainer.appendChild(skillDatabase);
     skillsContainer.appendChild(skillOther)
-
-
- 
   });
 })
 .catch(error => console.error(error));
-
 
 fetch('../db/projects.json')
 .then(response => response.json())
