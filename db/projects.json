@@ -1,8 +1,7 @@
 [
-   
     {
         "name": "ArmorFeed",
-        "img": "../images/projects/armorfeed.png",
+        "img": "./images/projects/armorfeed.png",
         "description": "Administrar y contacta con las empresas de envio.",
         "repository":"https://github.com/ArmorFeed-ES3C",
         "type":"PROYECTO ACADEMICO",
@@ -13,7 +12,7 @@
     },
     {
         "name": "DiGol",
-        "img": "../images/projects/digol.png",
+        "img": "./images/projects/digol.png",
         "description": "Reservar y administrar campos deportivos.",
         "repository":"https://github.com/DiGol-OpenSource",
         "type":"PROYECTO ACADEMICO",
@@ -24,7 +23,7 @@
     },
     {
         "name": "ShopTeam",
-        "img": "../images/projects/shopteam.jpg",
+        "img": "./images/projects/shopteam.jpg",
         "description": "Administrar el inventario de tu negocios.",
         "repository":"https://github.com/upc-shopTeam",
         "type":"PROYECTO ACADEMICO",
@@ -35,7 +34,7 @@
     },
     {
         "name": "Del Centro App",
-        "img": "../images/projects/del-centro.png",
+        "img": "./images/projects/del-centro.png",
         "description": "Creación, control y cobros de créditos.",
         "repository": "https://github.com/LITO-TR/del_centro_app",
         "type":"PROYECTO PERSONAL",
@@ -46,7 +45,7 @@
     },
     {
         "name": "Del Centro API",
-        "img": "../images/projects/del-centro.png",
+        "img": "./images/projects/del-centro.png",
         "description": "API REST para el app Del Centro.",
         "repository":"https://github.com/LITO-TR/del-centro-api",
         "type":"PROYECTO PERSONAL",
