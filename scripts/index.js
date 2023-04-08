@@ -1,5 +1,5 @@
 
-fetch('/portfolio/db/skills.json')
+fetch('/db/skills.json')
 .then(response => response.json())
 .then(data => {
   const skillsContainer = document.getElementById('skills-container');
@@ -91,7 +91,7 @@ fetch('/portfolio/db/skills.json')
 })
 .catch(error => console.error(error));
 
-fetch('/portfolio/db/projects.json')
+fetch('/db/projects.json')
 .then(response => response.json())
 .then(data => {
   const projectsContainer = document.getElementById('projects-container');
