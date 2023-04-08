@@ -1,36 +1,27 @@
 #home {
-    height: 100vh;
     display: flex;
     align-items: start;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
   }
   .home h1 {
     font-size: 2em;
-  }
-  
-
+  }  
   .profile-container{
-   
     display: flex;
     gap: 32px;
     align-items: center;
-    justify-content: space-between;
-    
-  
+    justify-content: space-between;   
   }
-  
   .profile-title span {
     color: var(--primary);
   }
-  
   .profile-container img {
     border: 1px solid var(--gray);
-    
   }
-  
   .profile-description {
     color: var(--gray);
     margin-bottom: 32px;
@@ -53,17 +44,11 @@
     background-color: hsl(0, 60%, 65%,0.3);
     
   }
-  
-  
-  /* Estilos para pantallas pequeñas */
-  @media only screen and (max-width: 480px) {
-   
-  
+  @media only screen and (max-width: 768px) {
     .profile-container {
       display: flex;
       flex-direction: column;
       align-items: stretch;
-      gap: 10px;
     }
     .profile-container img {
       height: 100%;
@@ -71,14 +56,15 @@
       border-right: 0px;
       height: 400px;
     }
-    .profile-description {
+    .profile {
       text-align: center;
-      margin: 18px;
       
     }
     .button-cv {
       margin: 0 auto;
       display: block;
     }
-    
+    .profile p {
+      margin: 8px;
+    } 
   }
