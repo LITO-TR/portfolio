@@ -1,5 +1,5 @@
 
-fetch('./db/skills.json')
+fetch('https://lito-tr.github.io/portfolio/db/skills.json')
 .then(response => response.json())
 .then(data => {
   const skillsContainer = document.getElementById('skills-container');
@@ -91,7 +91,7 @@ fetch('./db/skills.json')
 })
 .catch(error => console.error(error));
 
-fetch('/db/projects.json')
+fetch('https://lito-tr.github.io/portfolio/db/projects.json')
 .then(response => response.json())
 .then(data => {
   const projectsContainer = document.getElementById('projects-container');
