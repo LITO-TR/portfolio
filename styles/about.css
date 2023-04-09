@@ -8,10 +8,15 @@
   }
   .about-me-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   #about-me p {
-    margin-top: 48px;
     color: var(--gray);
+    width: 600px;
+    text-align: justify;
+
+ 
   }
   #about-me img {
     border-right: 1px solid var(--gray);
