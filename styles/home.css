@@ -44,20 +44,6 @@
     background-color: hsl(0, 60%, 65%,0.3);
     
   }
-  #footer ul{
-    list-style: none;
-    color: var(--primary);
-    display: flex;
-    gap: 12px;
-  }
-  #footer i {
-    color: var(--gray);
-    font-size: 1.5em;
-  }
-  #footer i:hover {
-    color: var(--white);
-  }
-
   .social-media {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -75,7 +61,6 @@
   .social-media i:hover {
     color: var(--white);
   }
-
 
   @media only screen and (max-width: 768px) {
     #home {
@@ -110,5 +95,7 @@
     .profile p {
       margin: 40px;
     } 
+   
+
 
   }
