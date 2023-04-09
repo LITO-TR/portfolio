@@ -58,6 +58,25 @@
     color: var(--white);
   }
 
+  .social-media {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .social-media ul{
+    list-style: none;
+    color: var(--primary);
+    display: flex;
+    gap: 12px;
+  }
+  .social-media i {
+    color: var(--gray);
+    font-size: 1.5em;
+  }
+  .social-media i:hover {
+    color: var(--white);
+  }
+
+
   @media only screen and (max-width: 768px) {
     #home {
       display: flex;
@@ -91,23 +110,5 @@
     .profile p {
       margin: 40px;
     } 
-    .social-media {
-      margin-top: 16px;
-      margin-bottom: 16px;
-    }
-    .social-media ul{
-      list-style: none;
-      color: var(--primary);
-      display: flex;
-      gap: 12px;
-    }
-    .social-media i {
-      color: var(--gray);
-      font-size: 1.5em;
-    }
-    .social-media i:hover {
-      color: var(--white);
-    }
-
 
   }
