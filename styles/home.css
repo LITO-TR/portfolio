@@ -1,16 +1,16 @@
 #home {
-    display: flex;
     align-items: start;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    margin-top: 64px;
   }
   .home h1 {
     font-size: 2em;
   }  
   .profile-container{
+    width: 100%;
     display: flex;
     gap: 32px;
     align-items: center;
@@ -66,21 +66,21 @@
   @media only screen and (max-width: 768px) {
     #home {
       display: flex;
-   
       flex-direction: column;
-      height: 100vh;
       justify-content: flex-start;
+      margin-top: 0px;
     }
     .profile-container {
       display: flex;
       flex-direction: column;
       align-items: stretch;
+
     }
     .profile-container img {
       height: 100%;
       border-left: 0px solid;
       border-right: 0px;
-      height: 400px;
+      height: 350px;
     }
     .profile {
       text-align: center;
@@ -94,9 +94,6 @@
       display: block;
     }
     .profile p {
-      margin: 40px;
+      margin: 20px;
     } 
-   
-
-
   }

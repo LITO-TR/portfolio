@@ -172,3 +172,15 @@ function downloadCV() {
   link.click();
   document.body.removeChild(link);
 }
+
+
+const links = document.querySelectorAll("nav a");
+
+links.forEach(function(link) {
+  link.addEventListener("click", function() {
+    links.forEach(function(link) {
+      link.classList.remove("selected");
+    });
+    this.classList.add("selected");
+  }); 
+});

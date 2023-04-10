@@ -3,22 +3,17 @@
   --gray: hsl(219 14% 71%);
   --background: hsl(218 12% 18%);
   --white: hsl(0 0% 100%);
-
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fira Code', monospace;
-
-
 }
 body {
   background-color: var(--background);
   color: var(--white);
-  font-size: 16px;
-  height: 100vh;
-
+  font-size: 16px; 
 }
 .content-container{
   max-width: 1024px;
@@ -50,6 +45,11 @@ body {
   font-size: 2em;
   font-weight: bold;
   display: relative;
+}
+
+.margin {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 @media screen and (max-width: 768px) {
   .section {
