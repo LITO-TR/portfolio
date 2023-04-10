@@ -4,17 +4,13 @@
       margin: 0px auto;
       justify-content: center;
       flex-direction: column;
-  
   }  
   .projects-container {
       width: 100%;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));     
       gap: 16px;
       align-items: start;
-      margin-top: 48px;
-  
   }  
   .project-card {
     width: 100%;
@@ -23,10 +19,8 @@
     color: rgb(68, 68, 68);
     background-color: rgba(0, 0, 0, 0.2);
     transition: background 1.5s ease-in-out;
-    
   }  
   .links-container {
-    
     font-size: 2em;
     display: flex;
     justify-content: center;
