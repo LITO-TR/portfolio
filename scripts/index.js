@@ -173,14 +173,39 @@ function downloadCV() {
   document.body.removeChild(link);
 }
 
-
 const links = document.querySelectorAll("nav a");
+const sections = document.querySelectorAll("section");
+
+// Función para agregar o quitar la clase "selected" en el enlace de navegación correspondiente
+function updateSelectedLink() {
+  const currentSection = getCurrentSection();
+  links.forEach(function(link) {
+    if (link.getAttribute("href") === "#" + currentSection.id) {
+      link.classList.add("selected");
+    } else {
+      link.classList.remove("selected");
+    }
+  });
+}
+
+function getCurrentSection() {
+  let currentSection = sections[0];
+  sections.forEach(function(section) {
+    if (section.getBoundingClientRect().top <= window.innerHeight / 2) {
+      currentSection = section;
+    }
+  });
+  return currentSection;
+}
 
 links.forEach(function(link) {
-  link.addEventListener("click", function() {
-    links.forEach(function(link) {
-      link.classList.remove("selected");
-    });
-    this.classList.add("selected");
-  }); 
+  link.addEventListener("click", function(event) {
+    event.preventDefault();
+    const targetSection = document.querySelector(this.getAttribute("href"));
+    targetSection.scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+window.addEventListener("scroll", function() {
+  updateSelectedLink();
 });
