@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 112px;
+  gap: 56px;
 }
 .section-title {
   font-size: 2em;
@@ -48,14 +48,18 @@ body {
 }
 
 .margin {
-  padding-left: 16px;
-  padding-right: 16px;
+ padding-top: 68px;
 }
+
 @media screen and (max-width: 768px) {
   .section {
     position: relative;
     top: auto;
     bottom: 0;
+  }
+  .margin {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
