@@ -166,7 +166,7 @@ function downloadCV() {
   var link = document.createElement('a');
   link.style.display = 'none';
   link.setAttribute('download', 'CV.pdf');
-  link.setAttribute('href', 'https://lito-tr.github.io/portfolio/files/CV.pdf');
+  link.setAttribute('href', 'https://lito-tr.github.io/portfolio/files/cv.pdf');
   
   document.body.appendChild(link);
   link.click();
