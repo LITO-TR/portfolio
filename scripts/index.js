@@ -162,21 +162,11 @@ fetch('https://lito-tr.github.io/portfolio/db/projects.json')
   .catch(error => console.error(error));
 
 
-function downloadCV() {
-  var link = document.createElement('a');
-  link.style.display = 'none';
-  link.setAttribute('download', 'CV.pdf');
-  link.setAttribute('href', 'https://lito-tr.github.io/portfolio/files/cv.pdf');
 
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
 
 const links = document.querySelectorAll("nav a");
 const sections = document.querySelectorAll("section");
 
-// Función para agregar o quitar la clase "selected" en el enlace de navegación correspondiente
 function updateSelectedLink() {
   const currentSection = getCurrentSection();
   links.forEach(function (link) {
