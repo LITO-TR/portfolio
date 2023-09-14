@@ -1,5 +1,16 @@
 [
     {
+        "name": "Teacher Finder",
+        "img": "./images/projects/teacher-finder.png",
+        "description": "Ayuda en el proceso de contratacion de profesores",
+        "repository":"https://github.com/orgs/Arquitectura-De-Software-Emergentes/repositories",
+        "type":"PROYECTO ACADEMICO",
+        "deploy":"https://appdistribution.firebase.google.com/pub/i/81cb8311dac15074",
+        "framework":"Flutter, Spring boot y Angular",
+        "frameworkIcons": ["devicon-flutter-plain colored","devicon-spring-plain colored","devicon-angularjs-plain colored"]
+
+    },
+    {
         "name": "ArmorFeed",
         "img": "./images/projects/armorfeed.png",
         "description": "Administrar y contacta con las empresas de envio.",
@@ -8,6 +19,17 @@
         "deploy":"https://62a52906c984237905fa4078--zesty-seahorse-0836b4.netlify.app/",
         "framework":"ASP NET Core y Vue",
         "frameworkIcons": ["devicon-dotnetcore-plain colored","devicon-vuejs-plain colored"]
+
+    },
+    {
+        "name": "Fiate",
+        "img": "./images/projects/fiate.png",
+        "description": "Registra a tus clientes deudores",
+        "repository":"https://play.google.com/store/apps/details?id=com.LITO.fiate_app",
+        "type":"PROYECTO ACADEMICO",
+        "deploy":"https://play.google.com/store/apps/details?id=com.LITO.fiate_app",
+        "framework":"Flutter",
+        "frameworkIcons": ["devicon-flutter-plain colored"]
 
     },
     {

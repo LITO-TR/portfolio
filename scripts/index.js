@@ -1,7 +1,7 @@
-
 fetch('https://lito-tr.github.io/portfolio/db/skills.json')
   .then(response => response.json())
   .then(data => {
+
     const skillsContainer = document.getElementById('skills-container');
     skillsContainer.className = "skills-container"
 
